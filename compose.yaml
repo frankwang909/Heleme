@@ -1,0 +1,21 @@
+name: heleme
+services:
+  db:
+    image: postgres:17
+    environment:
+      POSTGRES_USER: heleme
+      POSTGRES_DB: heleme
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./db/migrations/001_initial.sql:/docker-entrypoint-initdb.d/001_initial.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U heleme -d heleme"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+volumes:
+  pgdata:
+    name: heleme_pgdata

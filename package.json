@@ -1,0 +1,16 @@
+{
+  "name": "heleme-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env server/index.mjs",
+    "test": "node --env-file=.env --test tests/*.test.mjs",
+    "catalog:crawl": "python3 scripts/crawl-catalog.py",
+    "catalog:import": "node --env-file=.env scripts/import-catalog.mjs",
+    "test:crawler": "python3 -m unittest discover -s tests -p \"test_*.py\"",
+    "user:admin": "node --env-file=.env scripts/create-admin.mjs"
+  },
+  "dependencies": {
+    "pg": "^8.16.3"
+  }
+}

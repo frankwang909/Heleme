@@ -1,0 +1,103 @@
+{
+  "market": "中国大陆",
+  "language": "zh-CN",
+  "price_city": "成都",
+  "ranking": {
+    "title": "2026年中国新式茶饮连锁品牌15强榜单",
+    "url": "https://ranking.iimedia.cn/ranking/161/624",
+    "as_of": "2026-06-23",
+    "method": "艾媒金榜综合指标，非门店数单一排名"
+  },
+  "brands": [
+    {
+      "name": "蜜雪冰城",
+      "rank": 1,
+      "slug": "mi-xue-bing-cheng",
+      "url": "https://www.nckfhsm.com/brands/mi-xue-bing-cheng/menu/available"
+    },
+    {
+      "name": "古茗",
+      "rank": 2,
+      "slug": "gu-ming",
+      "url": "https://www.nckfhsm.com/brands/gu-ming/menu/available"
+    },
+    {
+      "name": "霸王茶姬",
+      "rank": 3,
+      "slug": "ba-wang-cha-ji",
+      "url": "https://www.nckfhsm.com/brands/ba-wang-cha-ji/menu/available"
+    },
+    {
+      "name": "茶百道",
+      "rank": 4,
+      "slug": "cha-bai-dao",
+      "url": "https://www.nckfhsm.com/brands/cha-bai-dao/menu/available"
+    },
+    {
+      "name": "沪上阿姨",
+      "rank": 5,
+      "slug": "hu-shang-a-yi",
+      "url": "https://www.nckfhsm.com/brands/hu-shang-a-yi/menu/available"
+    },
+    {
+      "name": "书亦烧仙草",
+      "rank": 6,
+      "slug": "shu-yi-shao-xian-cao",
+      "url": "https://www.nckfhsm.com/brands/shu-yi-shao-xian-cao/menu/available"
+    },
+    {
+      "name": "喜茶",
+      "rank": 7,
+      "slug": "xi-cha",
+      "url": "https://www.nckfhsm.com/brands/xi-cha/menu/available"
+    },
+    {
+      "name": "益禾堂",
+      "rank": 8,
+      "slug": "yi-he-tang",
+      "url": "https://www.nckfhsm.com/brands/yi-he-tang/menu/available"
+    },
+    {
+      "name": "茶颜悦色",
+      "rank": 9,
+      "slug": "cha-yan-yue-se",
+      "url": "https://www.nckfhsm.com/brands/cha-yan-yue-se/menu/available"
+    },
+    {
+      "name": "1点点",
+      "rank": 10,
+      "slug": "yi-dian-dian",
+      "url": "https://www.nckfhsm.com/brands/yi-dian-dian/menu/available"
+    },
+    {
+      "name": "奈雪的茶",
+      "rank": 11,
+      "slug": "nai-xue-de-cha",
+      "url": "https://www.nckfhsm.com/brands/nai-xue-de-cha/menu/available"
+    },
+    {
+      "name": "CoCo都可",
+      "rank": 12,
+      "slug": "coco-dou-ke",
+      "url": "https://www.nckfhsm.com/brands/coco-dou-ke/menu/available"
+    },
+    {
+      "name": "茉莉奶白",
+      "rank": 13,
+      "slug": "mo-li-nai-bai",
+      "url": "https://www.nckfhsm.com/brands/mo-li-nai-bai/menu/available"
+    },
+    {
+      "name": "快乐番薯",
+      "rank": 14,
+      "slug": "kuai-le-fan-shu",
+      "url": "https://www.nckfhsm.com/brands/kuai-le-fan-shu/menu/available"
+    },
+    {
+      "name": "爷爷不泡茶",
+      "rank": 15,
+      "slug": "ye-ye-bu-pao-cha",
+      "url": "https://www.nckfhsm.com/brands/ye-ye-bu-pao-cha/menu/available"
+    }
+  ]
+}

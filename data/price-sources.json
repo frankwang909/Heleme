@@ -1,0 +1,19 @@
+{
+  "target_city": "成都",
+  "meituan": {
+    "checked_on": "2026-10-24",
+    "status": "no_verified_store_prices",
+    "urls": [
+      "https://cd.meituan.com/meishi/",
+      "https://waimai.meituan.com/"
+    ],
+    "reason": "成都美团旧公开商户入口跳转到全国介绍页面；外卖公开首页未提供可核验的成都门店商品价目表。未将全国活动价或第三方价标记为成都美团价。"
+  },
+  "fallback": {
+    "label": "第三方菜单参考价",
+    "provider": "咖啡奶茶喝什么",
+    "city": null,
+    "store": null,
+    "budget_filter": "仅核验门店价参与预算；参考价仅展示"
+  }
+}
